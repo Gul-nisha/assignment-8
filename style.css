@@ -1,0 +1,65 @@
+/* Local Fonts */
+@font-face {
+  font-family: "LocalFont1";
+  src: url("fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "LocalFont2";
+  src: url("fonts/OpenSans-Regular.ttf");
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 230px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  background-color: white;
+}
+
+/* Google Fonts */
+.google1 {
+  background-color: #b3e5fc;
+  font-family: "Montserrat", sans-serif;
+}
+.google2 {
+  background-color: #ffe0b2;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Local Fonts */
+.local1 {
+  background-color: #d1c4e9;
+  font-family: "LocalFont1", serif;
+}
+.local2 {
+  background-color: #c8e6c9;
+  font-family: "LocalFont2", sans-serif;
+}
+
+/* Default CSS Fonts */
+.default1 {
+  background-color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+.default2 {
+  background-color: #fff59d;
+  font-family: Verdana, sans-serif;
+}
